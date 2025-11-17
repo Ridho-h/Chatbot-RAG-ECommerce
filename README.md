@@ -27,6 +27,7 @@ The chatbot leverages a ReAct (Reasoning + Acting) agent framework that intellig
 - ReAct framework for transparent reasoning
 - Automatic tool selection based on query type
 - Error handling and fallback mechanisms
+- Multi-language support
 
 📊 **Production-Ready Data**
 - Amazon sales dataset with 1000+ products
@@ -76,8 +77,6 @@ The chatbot leverages a ReAct (Reasoning + Acting) agent framework that intellig
    ```
    You: What are the best wireless headphones under $50?
    Bot: [Searches product database, analyzes results, provides answer]
-   
-   You: q  # Type 'q' or 'quit' to exit
    ```
 
 ### Example Queries
@@ -149,10 +148,6 @@ Contributions are welcome! To contribute:
 └── README.md                      # This file
 ```
 
-## Authors & Maintainers
-
-- Created for GDG Final Project
-
 ## Performance Notes
 
 - **Dataset processing**: ~2-5 minutes (depends on connection)
@@ -166,7 +161,6 @@ Contributions are welcome! To contribute:
 - [ ] Conversation memory for multi-turn interactions
 - [ ] User feedback collection for continuous improvement
 - [ ] Analytics dashboard for query tracking
-- [ ] Multi-language support
 - [ ] Web interface or Telegram bot integration
 - [ ] Deployment on cloud platforms (Azure, AWS, GCP)
 
@@ -175,3 +169,4 @@ Contributions are welcome! To contribute:
 **Last Updated**: November 2025
 
 For questions or issues, please open a GitHub issue or contact the maintainers.
+
