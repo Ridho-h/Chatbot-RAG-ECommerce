@@ -178,8 +178,8 @@ Default admin: `admin` / `admin123` (change via env vars in production!)
 │   │   ├── data/          # Dataset loader
 │   │   ├── middleware/    # Rate limiting, logging
 │   │   └── schemas/       # Pydantic models
-│   ├── scripts/           # CLI tools (ingest, evaluate)
-│   ├── data/              # FAISS index, datasets
+│   ├── scripts/           # CLI tools (ingest, langsmith_pipeline)
+│   ├── data/              # datasets
 │   ├── Dockerfile
 │   └── requirements.txt
 ├── frontend/
@@ -202,7 +202,7 @@ Default admin: `admin` / `admin123` (change via env vars in production!)
 | POST | `/api/chat` | ✅ | Send chat message |
 | GET | `/api/admin/metrics` | Admin | View system metrics |
 | POST | `/api/admin/ingest` | Admin | Re-ingest dataset |
-| GET | `/api/admin/eval` | Admin | Get RAGAS results |
+| GET | `/api/admin/eval` | Admin | Get LangSmith eval results |
 | GET | `/health` | — | Liveness check |
 | GET | `/ready` | — | Readiness check |
 | GET | `/docs` | — | Swagger UI |
@@ -215,8 +215,7 @@ Default admin: `admin` / `admin123` (change via env vars in production!)
 - DuckDuckGo: Unlimited free
 - HuggingFace embeddings: Local, free
 - Pinecone: Free tier index
-- Langfuse: Self-hosted, free
-- RAGAS: Open-source, free
+- LangSmith: Free developer tier
 
 ---
 
