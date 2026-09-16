@@ -8,7 +8,7 @@ An intelligent e-commerce chatbot powered by Retrieval-Augmented Generation (RAG
 ![React](https://img.shields.io/badge/React-18-blue)
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x450.gif?text=Your+Demo+GIF+Here" alt="ShopAI Demo" width="100%" />
+  <img src="https://github.com/user-attachments/assets/71bed3d6-4a22-4bd8-9249-d940f78b4eb6" alt="ShopAI Demo" width="100%" />
 </div>
 
 ## ✨ Features
